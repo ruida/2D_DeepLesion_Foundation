@@ -1,0 +1,45 @@
+(acl_umamba) [ruida@cn0794 Swin-UMamba-DeepLesion-Clean]$ python eval_png_masks_dice_iou_hd95.py \
+>   --pred_dir roi_outputs_top1/full_masks \
+>   --gt_dir data/sam_filtered_by_visdrone_split/test-dev/masks \
+>   --out_dir eval_png_out/top1_testdev_hd95 \
+>   --include_missing_pred_as_empty
+============================================================
+Evaluation complete
+============================================================
+Pred dir: roi_outputs_top1/full_masks
+GT dir:   data/sam_filtered_by_visdrone_split/test-dev/masks
+Pred files: 3127
+GT files:   3192
+Evaluated:  3192
+
+Mean Dice: 0.626782 ± 0.416255
+Mean IoU:  0.575875 ± 0.396698
+HD95:      39.036327 ± 65.973657
+
+Saved CSV:     eval_png_out/top1_testdev_hd95/per_case_metrics.csv
+Saved JSON:    eval_png_out/top1_testdev_hd95/summary_metrics.json
+Saved summary: eval_png_out/top1_testdev_hd95/summary_metrics.txt
+(acl_umamba) [ruida@cn0794 Swin-UMamba-DeepLesion-Clean]$ python eval_png_masks_dice_iou_hd95.py \
+>   --pred_dir roi_outputs_top2/full_masks \
+>   --gt_dir data/sam_filtered_by_visdrone_split/test-dev/masks \
+>   --out_dir eval_png_out/top2_testdev_hd95 \
+>   --include_missing_pred_as_empty
+============================================================
+Evaluation complete
+============================================================
+Pred dir: roi_outputs_top2/full_masks
+GT dir:   data/sam_filtered_by_visdrone_split/test-dev/masks
+Pred files: 3127
+GT files:   3192
+Evaluated:  3192
+
+Mean Dice: 0.591856 ± 0.357824
+Mean IoU:  0.506783 ± 0.345569
+HD95:      76.751674 ± 81.344962
+
+Saved CSV:     eval_png_out/top2_testdev_hd95/per_case_metrics.csv
+Saved JSON:    eval_png_out/top2_testdev_hd95/summary_metrics.json
+Saved summary: eval_png_out/top2_testdev_hd95/summary_metrics.txt
+(acl_umamba) [ruida@cn0794 Swin-UMamba-DeepLesion-Clean]$ 
+
+

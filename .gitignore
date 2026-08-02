@@ -1,0 +1,52 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Logs / SLURM
+*.log
+logs/
+slurm_logs/
+slurm-*.out
+*.out
+*.err
+
+# Runtime outputs
+results/
+out/
+cross_fold/
+yoloTLP_runs/
+roi_outputs/
+roi_outputs_top1/
+roi_outputs_top2/
+eval_png_out/
+
+# Data folders
+data/
+
+# Model checkpoints / weights
+*.pt
+*.pth
+*.ckpt
+checkpoint*
+model_final*
+
+# Medical / array / generated files
+*.nii
+*.nii.gz
+*.npy
+*.npz
+*.pkl
+*.csv
+
+# Archives / backups
+*.zip
+*.tar
+*.tar.gz
+*.bak
+*_backup_*
+
+# System
+.DS_Store

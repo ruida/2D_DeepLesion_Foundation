@@ -1,0 +1,15 @@
+=== Summary ===
+n_pred_png: 4558
+n_gt_png: 4558
+n_matched: 4558
+n_evaluated: 4558
+n_missing_gt: 0
+n_skipped_shape: 0
+mean_dice: 0.9871530184932075
+mean_iou: 0.9755709237501838
+mean_precision: 0.9925064840240984
+mean_recall: 0.982410181637584
+mean_specificity: 0.9986584719346348
+Wrote: /data/ruida/segmentation/Swin-UMamba-Origin/eval_png_out/metrics_per_case.csv
+Wrote: /data/ruida/segmentation/Swin-UMamba-Origin/eval_png_out/metrics_summary.txt
+

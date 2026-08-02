@@ -1,0 +1,14 @@
+Key merged files:
+- modules/datasets.py
+  DAM full/focal RGB+mask construction, mask_path loading, bbox normalization,
+  anatomy IDs/text, and lesion_type_id inclusion.
+- modules/visual_extractor.py
+  Shared 4-channel ResNet with zero-initialized mask channel.
+- models/r2gen_deeplesion.py
+  Gated global-to-local adapter followed by bbox/anatomy/lesion token fusion.
+- main_train.py / main_test.py
+  New DAM and lesion-type CLI arguments.
+- tools/merge_dam_with_anatomy_lesion_json.py
+  ID-based annotation merger.
+- scripts_dam_anatomy/
+  Training, testing, and Slurm launchers.

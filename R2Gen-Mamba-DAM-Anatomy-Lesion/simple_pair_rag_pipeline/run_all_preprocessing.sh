@@ -1,0 +1,9 @@
+#!/bin/bash
+set -euo pipefail
+cd /vf/users/ruida/LLM/R2Gen-Mamba-Merged_text
+python simple_pair_rag_pipeline/00_build_oracle_simple_labels.py
+python simple_pair_rag_pipeline/01_build_raw_simple_inputs.py
+python simple_pair_rag_pipeline/02_join_oracle_targets.py
+python simple_pair_rag_pipeline/03_train_validate_apply_simple_pair_rag.py --input_json data/simple_pair_rag_annotations/02_simple_rag_canonical.json --out_json data/simple_pair_rag_annotations/03_simple_pair_rag_applied.json --out_dir results/simple_pair_rag --max_k 7
+python simple_pair_rag_pipeline/04_compare_simple_pairs.py
+python simple_pair_rag_pipeline/05_build_simple_r2gen_jsons.py

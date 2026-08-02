@@ -1,0 +1,10 @@
+path: /data/ruida/object_detection/YOLO-TLP/data/VisDroneDeepLesion_clear
+train: VisDrone2019-DET-train/images
+val: VisDrone2019-DET-val/images
+test: VisDrone2019-DET-test-dev/images
+
+# Classes
+names:
+  0: lesion
+
+nc: 1

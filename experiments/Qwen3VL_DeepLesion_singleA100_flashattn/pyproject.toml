@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qwen3vl-deeplesion-singlea100-flashattn"
+version = "0.1.0"
+description = "Qwen3-VL DeepLesion single A100 patched bundle"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+package-dir = {"" = "Qwen3-VL/qwen-vl-finetune"}
+
+[tool.setuptools.packages.find]
+where = ["Qwen3-VL/qwen-vl-finetune"]
+include = ["qwenvl*"]
+exclude = ["assets*", "data_conversion*"]

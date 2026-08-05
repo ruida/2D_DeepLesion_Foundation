@@ -50,3 +50,25 @@ model_final*
 
 # System
 .DS_Store
+
+# Experiment outputs
+experiments/**/logs/
+experiments/**/results/
+experiments/**/outputs/
+experiments/**/checkpoints/
+experiments/**/weights/
+experiments/**/*.log
+experiments/**/slurm-*.out
+experiments/**/*.out
+experiments/**/*.err
+experiments/**/*.pt
+experiments/**/*.pth
+experiments/**/*.ckpt
+experiments/**/*.nii
+experiments/**/*.nii.gz
+experiments/**/*.npy
+experiments/**/*.npz
+experiments/**/*.pkl
+experiments/**/*.zip
+experiments/**/*.tar
+experiments/**/*.tar.gz

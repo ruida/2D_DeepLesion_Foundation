@@ -1,0 +1,14 @@
+{
+  "annotation_path": "/vf/users/ruida/data/DeepLesion/DeepLesion/deeplesion_mamba_final.json",
+  "image_root": "/vf/users/ruida/object_detection/YOLO-TLP/data/VisDroneDeepLesion_clear",
+  "counts": {
+    "train": 16667,
+    "val": 2058,
+    "test": 2026
+  },
+  "image_mode": "first",
+  "image_index": 0,
+  "include_meta_in_prompt": false,
+  "num_errors": 0,
+  "errors_preview": []
+}

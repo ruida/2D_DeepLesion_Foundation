@@ -1,5 +1,12 @@
 # 2D DeepLesion Foundation
 
+## Paper and Data Links
+
+- **Full paper:** [DeepLesion_report_long.pdf](DeepLesion_report_long.pdf)
+- **Short abstract / RMS version:** [DeepLesion_report_version_1_RMS.pdf](DeepLesion_report_version_1_RMS.pdf)
+- **Data:** [Google Drive folder](https://drive.google.com/drive/folders/1MwoMXqQigKmx4XxbZOP2HcjBI5vWuHYG?usp=drive_link)
+
+
 This repository provides a complete 2D DeepLesion analysis pipeline covering:
 
 1. **Lesion detection** with YOLO-TLP-MOE  
